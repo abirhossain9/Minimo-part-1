@@ -1,0 +1,131 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+/*body start*/
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+ /*header start*/
+header
+{
+	padding: 20px 0px;
+	/*border:1px solid black;*/
+
+}
+.container1
+{
+	width: 90%;
+	margin: 0 auto;
+	/*border:1px solid black;*/
+	overflow: hidden;
+
+}
+.logo{
+	width: 15%;
+	float: left;
+	/*border:1px solid black;*/
+	margin-top: 10px;
+	color: #000000;
+	letter-spacing: 5px;
+
+
+}
+.logo span
+{
+	font-family: 'Inconsolata', monospace;
+	font-size: 30px;
+	font-weight: 400;
+}
+.menu{
+	width: 70%;
+	float: right;
+	/*border:1px solid black;*/
+
+}
+.menu ul
+{
+ float: right;
+}
+.menu ul li
+{
+	list-style: none;
+	float: left;
+}
+.menu ul li a
+{
+  text-decoration: none;
+  padding: 0 60px;
+  display: block;
+  color: #626262;
+  font-size: 14px;
+  font-weight: 400px;
+}
+.menu ul li:last-child a
+{
+	padding-right: 0;
+
+}
+/*header end*/
+
+
+/*banner start*/
+.banner
+{
+
+}
+.banner img
+{
+	width: 100%;
+}
+/*banner end*/
+
+
+
+
+/*gataway start*/
+#getaway
+{
+ padding: 80px 0 100px;
+}
+.container2
+{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.photo
+{
+ font-family: 'Ubuntu', sans-serif;
+ font-size: 14px;
+ text-transform: uppercase;
+ font-weight: 300;
+ color: #b4ad9e;
+}
+.getaway_content
+{
+
+}
+
+.getaway_content h1
+{
+	font-weight: 400;
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+
+
+  
+}
+.getaway_content .text{
+	font-size: 14px;
+    line-height: 23px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    margin-bottom: 45px;
+
+}
+/*gataway end*/
