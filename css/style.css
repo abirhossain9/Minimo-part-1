@@ -54,6 +54,7 @@ header
 {
 	list-style: none;
 	float: left;
+	text-transform: uppercase;
 }
 .menu ul li a
 {
